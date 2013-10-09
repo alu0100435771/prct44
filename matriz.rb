@@ -28,7 +28,7 @@ for i in 0...m do
 puts "              "
 end
 
-yra hacer y mostrar producto
+#funcion para hacer y mostrar producto
 def producto(a,b,c)
   m, n = a.size, a[1].size
   for z in 0...m do
