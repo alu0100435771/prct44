@@ -28,3 +28,4 @@ for i in 0...m do
 puts "              "
 end
 
+ramas probando copy
