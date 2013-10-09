@@ -28,3 +28,26 @@ for i in 0...m do
 puts "              "
 end
 
+#Funcio para hacer y mostrar producto
+def producto(a,b,c)
+  m, n = a.size, a[1].size
+  for z in 0...m do
+    for i in 0...m do
+        x = 0
+        for j in 0...n do
+          x += a[i][j]*b[j][z]
+        end
+        c[i][z] = x;
+    end
+  end
+
+puts "PRODUCTO"
+
+  for i in 0...m do
+    for j in 0...n do
+      print c[i][j]
+      print " "
+    end
+    puts ""
+  end
+end
